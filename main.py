@@ -66,4 +66,9 @@ if st.button('Recommend'):
         st.text(names[4])
         st.image(posters[4])
 
+    
+if __name__ == "__main__":
+    app.run(debug= False,host='0.0.0.0')
+    
+
 
